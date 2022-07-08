@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin: 10px auto;
+  /* background-color: salmon; */
+  padding: 8px;
+}
+
+.avatar {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+form .remember {
+  font-weight: normal;
+}
+
+form div {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 16px 0;
+  width: 100%;
+  padding: 12px;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.cancel {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 0 12px;
+}
+
+.cancel button {
+  width: auto;
+  background-color: #f44336;
+}
